@@ -100,6 +100,14 @@ namespace Scripts
 
         static Foo GetFoo1() => new();
 
+        public virtual void ConvertFoo(Foo foo) { } // Virtual methods.
+
+        public virtual Foo ConvertFooAsFoo(Foo foo) => new(); // Virtual functions.
+
+        protected virtual void ConvertFoo1(Foo foo) { }
+
+        protected virtual Foo ConvertFooAsFoo1(Foo foo) => new();
+
         public override void DoFoo() // Override methods.
         {
             throw new NotImplementedException();
@@ -119,14 +127,6 @@ namespace Scripts
         {
             throw new NotImplementedException();
         }
-
-        public virtual void ConvertFoo(Foo foo) { } // Virtual methods.
-
-        public virtual Foo ConvertFooAsFoo(Foo foo) => new(); // Virtual functions.
-
-        protected virtual void ConvertFoo1(Foo foo) { }
-
-        protected virtual Foo ConvertFooAsFoo1(Foo foo) => new();
 
         public void MakeFoo2() { } // Instance methods.
 
