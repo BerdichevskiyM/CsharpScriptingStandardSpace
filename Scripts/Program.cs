@@ -43,9 +43,9 @@ namespace Scripts
         public const float Pi = 7f; // Consts.
         const float Ji = 3.14f;
 
-        public static Foo foo; // Static common fields.
+        public static Foo Foo; // Static common fields.
         static Foo foo1;
-        public static int f; // Static C# built-in type fields.
+        public static int F; // Static C# built-in type fields.
         static int f1;
 
         public Foo _foo; // Instance common fields.
