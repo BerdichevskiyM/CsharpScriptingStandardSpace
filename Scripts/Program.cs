@@ -130,8 +130,6 @@ namespace Scripts
 
         public void MakeFoo2() { } // Instance methods.
 
-        public Foo ToFoo(int f) => new(); // Implicit interface implementation.
-
         public Foo GetFoo2() => new(); // Instance functions.
 
         void MakeFoo3() { }
