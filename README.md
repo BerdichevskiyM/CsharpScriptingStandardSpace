@@ -1,4 +1,5 @@
-# ScriptingStandardSpace
+# CSSS
+Или CsharpScriptingStandardSpace.
 
 *Немного терминов:*
 1) Функции - функции в классе или структуре или вне его, которые возвращают значение.
