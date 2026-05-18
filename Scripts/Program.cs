@@ -90,6 +90,9 @@ namespace Scripts
 
         public static Foo GetFoo() => new(); // Static functions.
 
+        // Как именно оформляется TODO (при переносе на новую строку, пишется снова «TODO>»):
+        // TODO> Do Foo, Main, 
+        // TODO> Fabs, IFoo.
         static void Main(string[] args)
         {
             Console.WriteLine(4.0);
